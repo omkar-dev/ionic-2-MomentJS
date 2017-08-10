@@ -10,9 +10,12 @@
 <ion-content padding>
   <h3>Ionic Menu Starter</h3>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <h4> Time Full Format :{{t1}} </h4>
+  <h4> Zone :{{t2}} </h4>
+  <h4> {{t3}} </h4>
+  <h4> Zone : {{t4}}</h4>
+  <h4>  </h4>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+
+  <button ion-button secondary (click)="refreshDetatils()">Toggle Menu</button>
 </ion-content>
